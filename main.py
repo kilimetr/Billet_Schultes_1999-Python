@@ -47,13 +47,13 @@ pars = [uV, g, epsilon, a, rhoL, rhoV, VFl, CFltab, Skol, etaL, etaV]
 
 result = sp.fsolve(lambda y: calc_liq_flooding(pars,y), [uLFl, hLFl, psi])
 
-uLFl = result[0]
-hLFl = result[1]
-psi  = result[2]
+uLFl   = result[0]
+hLFl   = result[1]
+psiFl  = result[2]
 
-print("uLFl: " + str(uLFl))
-print("hLFl: " + str(hLFl))
-print("psi: "  + str(psi))
+print("uLFl: "   + str(uLFl))
+print("hLFl: "   + str(hLFl))
+print("psiFl: "  + str(psiFl))
 
 
 # CALCULATIONS - Loading Point
@@ -62,8 +62,8 @@ LS = rhoL*uLS*Skol*3600
 
 parss = [uLS, g, epsilon, a, rhoL, rhoV, LS, CStab, Skol, etaL, etaV]
 
-uVS  = 5
-psiS = 5
+uVS  = uV
+psiS = psiFl
 
 result2 = sp.fsolve(lambda y: calc_liq_loading(parss,y), [uVS, psiS])
 
