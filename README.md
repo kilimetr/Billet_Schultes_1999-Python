@@ -16,3 +16,5 @@ Tasks:
 			c) convergation - better guess;
 	12. Make code dry and clean;
 	13. Start with GUI.
+
+License: For sharing and useage, please, contact me via email or linkedin!
