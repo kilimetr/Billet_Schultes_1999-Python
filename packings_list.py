@@ -5,7 +5,7 @@
 
 packings_str = '''
     Raschig Super-Ring | metal   |   0.3    | 180000 | 315.0 | 0.960 | 3.560 | 2.340 | 0.750 | 0.760 | 1.500 | 0.450
-    Raschig Super-Ring | metal   |   0.5    | 145000 | 250.0 | 0.975 | 3.550 | 2.200 | 0.620 | 0.780 | 1.450 | 0.430
+    Raschig Super-Ring | metal   |   0.5    | 145000 | 250.0 | 0.975 | 3.350 | 2.200 | 0.620 | 0.780 | 1.450 | 0.430
     Raschig Super-Ring | metal   |   1.0    |  32000 | 160.0 | 0.980 | 3.491 | 2.200 | 0.750 | 0.500 | 1.290 | 0.440
     Raschig Super-Ring | metal   |   2.0    |   9500 |  97.6 | 0.985 | 3.326 | 2.096 | 0.720 | 0.464 | 1.323 | 0.400
     Raschig Super-Ring | metal   |   3.0    |   4300 |  80.0 | 0.982 | 3.260 | 2.100 | 0.620 | 0.430 | 0.850 | 0.300
@@ -14,7 +14,7 @@ packings_str = '''
     Ralu Flow          | plastic |   2.0    |   4600 | 100.0 | 0.945 | 3.412 | 2.174 | 0.640 | 0.350 | 1.270 | 0.320
     Pall ring          | metal   |  25.0    |  53900 | 223.5 | 0.954 | 2.627 | 2.083 | 0.719 | 0.957 | 1.440 | 0.336
     Pall ring          | metal   |  35.0    |  19517 | 139.4 | 0.965 | 2.629 | 1.679 | 0.644 | 0.967 | 1.012 | 0.341
-    Pall ring          | metal   |  50.0    |   6242 | 112.6 | 0.951 | 2.725 | 1.500 | 0.784 | 0.763 | 1.192 | 0.410
+    Pall ring          | metal   |  50.0    |   6242 | 112.6 | 0.951 | 2.725 | 1.580 | 0.784 | 0.763 | 1.192 | 0.410
     Pall ring          | plastic |  25.0    |  52300 | 225.0 | 0.887 | 2.696 | 2.064 | 0.528 | 0.865 | 0.905 | 0.446
     Pall ring          | plastic |  35.0    |  17000 | 151.1 | 0.906 | 2.654 | 1.742 | 0.718 | 0.927 | 0.856 | 0.380
     Pall ring          | plastic |  50.0    |   6765 | 111.1 | 0.919 | 2.816 | 1.757 | 0.593 | 0.698 | 1.239 | 0.368
@@ -26,27 +26,27 @@ packings_str = '''
     Ralu ring          | plastic |  38.0    |  13500 | 150.0 | 0.930 | 2.843 | 1.812 | 0.640 | 0.672 | 1.320 | 0.333
     Ralu ring          | plastic |  50.0    |   5770 |  95.2 | 0.983 | 2.843 | 1.812 | 0.640 | 0.468 | 1.520 | 0.303
     NOR PAC ring       | plastic |  25.0    |  48920 | 197.9 | 0.920 | 2.865 | 2.083 | 0     | 0.383 | 0.976 | 0.410
-    NOR PAC ring       | plastic |  25.0    |  50000 | 202.0 | 0.953 | 3.277 | 2.427 | 0.601 | 0.397 | 0.883 | 0.366
+    NOR PAC ring       | plastic |  25.0    |  50000 | 202.0 | 0.953 | 3.277 | 2.472 | 0.601 | 0.397 | 0.883 | 0.366
     NOR PAC ring       | plastic |  35.0    |  17450 | 141.8 | 0.944 | 3.179 | 2.242 | 0.587 | 0.371 | 0.756 | 0.425
     NOR PAC ring       | plastic |  50.0    |   7330 |  86.8 | 0.947 | 2.959 | 1.786 | 0.651 | 0.350 | 1.080 | 0.322
     Hiflow-ring        | metal   |  25.0    |  40790 | 202.9 | 0.962 | 2.918 | 2.177 | 0.799 | 0.689 | 1.641 | 0.402
     Hiflow-ring        | metal   |  50.0    |   6815 | 117.1 | 0.925 | 2.894 | 1.871 | 1.038 | 0.327 | 1.478 | 0.345
     Hiflow-ring        | metal   |  50.0    |   5000 |  92.3 | 0.977 | 2.702 | 1.626 | 0.876 | 0.421 | 1.168 | 0.408
-    Hiflow-ring        | plastic |  25.0    |   9000 | 100.0 | 0.960 | 3.326 | 2.096 | 0.720 | 0.377 | 1.250 | 0.337
+    Hiflow-ring        | plastic |  25.0    |  46100 | 194.5 | 0.918 | 2.841 | 1.989 | 0     | 0.741 | 1.577 | 0.390
     Hiflow-ring        | plastic |  50S     |   6050 |  82.0 | 0.942 | 2.866 | 1.702 | 0.881 | 0.414 | 1.219 | 0.342
     Hiflow-ring        | plastic |  50hydr  |   6890 | 118.4 | 0.925 | 2.894 | 1.871 | 0     | 0.311 | 1.553 | 0.369
-    Hiflow-ring        | ceramic |  20.0    | 121314 | 282.2 | 0.758 | 2.875 | 2.410 | 1.167 | 0.628 | 1.744 | 0.465
+    Hiflow-ring        | ceramic |  20.0    | 121314 | 286.2 | 0.758 | 2.875 | 2.410 | 1.167 | 0.628 | 1.744 | 0.465
     Hiflow-ring        | ceramic |  38.0    |  13241 | 111.8 | 0.788 | 2.840 | 1.930 | 0     | 0.621 | 1.659 | 0.464
     Hiflow-ring        | ceramic |  50.0    |   5120 |  89.7 | 0.809 | 2.819 | 1.694 | 0     | 0.538 | 1.377 | 0.379
-    Glitsch Ring       | metal   |  30MPK   |  29200 | 180.5 | 0.975 | 2.694 | 1.900 | 0.930 | 0.851 | 1.920 | 0.450
+    Glitsch Ring       | metal   |  30PMK   |  29200 | 180.5 | 0.975 | 2.694 | 1.900 | 0.930 | 0.851 | 1.920 | 0.450
     Glitsch Ring       | metal   |  30P     |  31100 | 164.0 | 0.959 | 2.564 | 1.760 | 0.851 | 1.056 | 1.577 | 0.398
     Glitsch CMR ring   | metal   |   0.5"   | 560811 | 356.0 | 0.952 | 2.644 | 2.178 | 0     | 0.882 | 2.038 | 0.495
     Glitsch CMR ring   | metal   |   1.0"   | 158467 | 232.5 | 0.971 | 2.703 | 1.996 | 1.040 | 0.641 | 0     | 0
     Glitsch CMR ring   | metal   |   1.5"T  |  63547 | 188.0 | 0.972 | 2.790 | 1.870 | 0.870 | 0.627 | 0     | 0
     Glitsch CMR ring   | metal   |   1.5"   |  60744 | 174.9 | 0.974 | 2.697 | 1.841 | 0.935 | 0.632 | 0     | 0
     TOP Pak ring       | alu     |  50.0    |   6871 | 105.5 | 0.956 | 2.528 | 1.579 | 0.881 | 0.604 | 1.326 | 0.389
-    Rasching ring      | ceramic |  25.0    |  47700 | 190.0 | 0.680 | 2.454 | 1.899 | 0.577 | 1.329 | 1.361 | 0.412
-    Rasching ring      | ceramic |  50.0    |   5990 |  95.0 | 0.830 | 2.482 | 1.547 | 0     | 0     | 1.416 | 0.210
+    Raschig ring       | ceramic |  25.0    |  47700 | 190.0 | 0.680 | 2.454 | 1.899 | 0.577 | 1.329 | 1.361 | 0.412
+    Raschig ring       | ceramic |  50.0    |   5990 |  95.0 | 0.830 | 2.482 | 1.547 | 0     | 0     | 1.416 | 0.210
     VSP ring           | metal   |  25.0    |  33434 | 199.6 | 0.975 | 2.755 | 1.970 | 1.369 | 0.782 | 1.376 | 0.405
     VSP ring           | metal   |  50.0    |   7841 | 104.6 | 0.980 | 2.806 | 1.689 | 1.135 | 0.773 | 1.222 | 0.420
     Envi Pac ring      | plastic |  32.0    |  53000 | 138.9 | 0.936 | 2.944 | 2.012 | 1.039 | 0.549 | 1.517 | 0.459
@@ -99,57 +99,24 @@ for line in packings_str.strip().splitlines():
     })
 
 
-# for item in packings:
-#     print(item["name"])
 
+# EXPORTING PACKING NAME
+seen_packing_name = set()
+export_packing_name = []
 
-# type_packing = "Hiflow-ring"
-
-# for item in packings:
-#     if item["name"] == type_packing:
-#         print(item)
-
-
-# check if "a" is same for various packings
 for i in range(len(packings)):
-    a_a = packings[i]["a"]
-    for y in range(len(packings)):
-        a_b = packings[y]["a"]
-        if a_a == a_b:
-            print("double")
-            print(packings[i])
-            print(packings[y])
+    if packings[i]["name"] not in seen_packing_name:
+        seen_packing_name.add(packings[i]["name"])        
+        export_packing_name.append(packings[i]["name"])
+    else:
+        pass
 
 
+# EXPORT PACKING SURFACEAREA
+export_packing_surfacearea = []
 
-# for xxx in packings:
-#     for a in packings:
-#         if a["a"] == packings["a"]
+for item in packings:
+    if item["name"] == type_packing:
+        export_packing_surfacearea.append(item["a"])
 
-
-# a_packing = 118.4
-# for item in packings:
-#     if item["a"] == a_packing:
-#         print(item)
-#         chosen_packing = item
-
-# print(chosen_packing)
-
-#def export_packing:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(export_packing_surfacearea)
