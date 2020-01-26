@@ -112,11 +112,11 @@ for i in range(len(packings)):
         pass
 
 
-# EXPORT PACKING SURFACEAREA
-export_packing_surfacearea = []
+# # EXPORT PACKING SURFACEAREA
+# export_packing_surfacearea = []
 
-for item in packings:
-    if item["name"] == type_packing:
-        export_packing_surfacearea.append(item["a"])
+# for item in packings:
+#     if item["name"] == type_packing:
+#         export_packing_surfacearea.append(item["a"])
 
-print(export_packing_surfacearea)
+# print(export_packing_surfacearea)
